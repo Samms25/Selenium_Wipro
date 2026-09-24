@@ -270,6 +270,10 @@ CSS Selectors can also be used to identify elements based on:
 ## Result
 
 Web elements were successfully located using XPath and CSS Selector strategies.
+<img width="921" height="540" alt="Screenshot 2026-09-24 152319" src="https://github.com/user-attachments/assets/f888a694-338a-4733-ad66-87a197175b88" />
+
+<img width="1920" height="842" alt="module1_exp4_output" src="https://github.com/user-attachments/assets/3296d082-4d6b-499c-809d-0e38b8a21870" />
+
 
 ---
 
@@ -322,6 +326,10 @@ For example:
 
 Different web controls were successfully identified and automated using
 Selenium WebDriver.
+<img width="768" height="420" alt="Screenshot 2026-09-24 152522" src="https://github.com/user-attachments/assets/afb558ba-fd9f-482f-b711-69d2f88ffad9" />
+
+
+<img width="1920" height="842" alt="module1_exp5_output" src="https://github.com/user-attachments/assets/4e3f79f5-510b-41cb-8ca5-88ba86cd2cbc" />
 
 ---
 
@@ -376,6 +384,10 @@ For example:
 
 Advanced web controls and browser contexts were successfully handled using
 Selenium WebDriver.
+<img width="1163" height="866" alt="Screenshot 2026-09-24 152532" src="https://github.com/user-attachments/assets/15a8173d-7d11-4e62-8cad-91a9ca758c35" />
+
+
+<img width="1920" height="842" alt="module1_exp6_output" src="https://github.com/user-attachments/assets/44854488-bd0f-41e7-8b77-46005ce2a064" />
 
 ---
 
