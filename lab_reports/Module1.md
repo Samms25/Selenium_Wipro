@@ -76,11 +76,27 @@ basic browser operations.
 
 The Python implementation used for this experiment is maintained with the
 corresponding practical work.
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
+
+driver = webdriver.Chrome()
+driver.get("https://testautomationpractice.blogspot.com/")
+driver.maximize_window()
+
+driver.find_element(By.ID, "name").send_keys("Sampriti Dey")
+driver.find_element(By.ID, "email").send_keys("sampriti123@gmail.com")
+
+time.sleep(2)
+driver.save_screenshot("module1_exp1_output.png")
+driver.quit()
 
 ## Output
 
 The output obtained after successful execution is shown in the corresponding
 output screenshot.
+<img width="1920" height="842" alt="module1_exp1_output" src="https://github.com/user-attachments/assets/f56ca50b-5dd9-47c3-b23f-20f5c1904b4c" />
+
 
 ## Result
 
