@@ -76,26 +76,16 @@ basic browser operations.
 
 The Python implementation used for this experiment is maintained with the
 corresponding practical work.
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-import time
 
-driver = webdriver.Chrome()
-driver.get("https://testautomationpractice.blogspot.com/")
-driver.maximize_window()
+<img width="1149" height="564" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/5352e0b0-8928-4f6e-af15-2bf11a47ca85" />
 
-driver.find_element(By.ID, "name").send_keys("Sampriti Dey")
-driver.find_element(By.ID, "email").send_keys("sampriti123@gmail.com")
-
-time.sleep(2)
-driver.save_screenshot("module1_exp1_output.png")
-driver.quit()
 
 ## Output
 
 The output obtained after successful execution is shown in the corresponding
 output screenshot.
-<img width="1920" height="842" alt="module1_exp1_output" src="https://github.com/user-attachments/assets/f56ca50b-5dd9-47c3-b23f-20f5c1904b4c" />
+<img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/609d7ade-4428-4106-ab70-b7446e9f6d91" />
+
 
 
 ## Result
@@ -206,11 +196,15 @@ identification is essential for stable automation scripts.
 Different locator strategies were used to identify and interact with web
 elements.
 
+<img width="1234" height="645" alt="Screenshot 2026-09-24 151944" src="https://github.com/user-attachments/assets/1faf6cab-8f8d-4a27-b7ca-411bddf4a260" />
+
+
 ## Result
 
 The required web elements were successfully identified and interacted with
 using Selenium locator strategies.
 
+<img width="1920" height="842" alt="module1_exp3_output" src="https://github.com/user-attachments/assets/77e7bf2b-75e0-456c-b8e5-165fc48d7dd7" />
 ---
 
 # Experiment 4: Working with XPath and CSS Selectors
