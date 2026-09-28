@@ -1,0 +1,14 @@
+{
+    "valid_user": {
+        "username": "testuser123",
+        "password": "testpass123",
+        "firstName": "Test",
+        "lastName": "User",
+        "age": 25
+    },
+    "updated_user": {
+        "firstName": "Updated",
+        "lastName": "User",
+        "age": 26
+    }
+}
