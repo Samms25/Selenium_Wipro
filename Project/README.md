@@ -210,6 +210,7 @@ POST https://dummyjson.com/users/add -> Status: 201
 PUT https://dummyjson.com/users/1 -> Status: 200
 DELETE https://dummyjson.com/users/1 -> Status: 200
 GET https://dummyjson.com/users/9999 -> Status: 404
+ ```
 
 ## 12. BDD Implementation
 
