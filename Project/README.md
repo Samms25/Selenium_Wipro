@@ -228,6 +228,7 @@ Feature: User Management
 Scenario: Get all users successfully
     Given I send a GET request to the users endpoint
     And the response should contain users
+ ```
 
 ## 13. Allure Reporting
 
