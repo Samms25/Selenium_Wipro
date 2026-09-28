@@ -85,6 +85,7 @@ Response Validation
 Logging & Failure Analysis
       ↓
 Allure Reporting
+- **Reporting Layer** – Provides Allure test execution reports.
 
 ## 6. Project Structure
 
