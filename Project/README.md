@@ -256,6 +256,7 @@ The final execution produced the following results:
 2 features passed, 0 failed, 0 skipped
 8 scenarios passed, 0 failed, 0 skipped
 29 steps passed, 0 failed, 0 skipped
+ ```
 
 ## 15. Test Execution Evidence
 
@@ -263,4 +264,52 @@ The final execution produced the following results:
 
 The complete Behave test suite was executed successfully with all
 implemented scenarios passing.
+<img width="1920" height="191" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/acad99c0-d8b9-4387-b9cb-7af9b3a83eb0" />
+
+### 15.2 Allure Report
+
+The Allure report provides a detailed visual representation of the test
+execution results, including passed scenarios, execution duration, and
+test details.
+<img width="1920" height="1080" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/c3351125-108a-4e65-bc24-9c853655e8f4" />
+
+## 16. Test Coverage
+
+The automation framework covers the major functional areas of the
+sample User Management REST API.
+
+| Area | Test Coverage |
+|---|---|
+| Authentication | Valid and invalid login |
+| User Retrieval | Get all users and get user by ID |
+| User Creation | Create a new user |
+| User Update | Update an existing user |
+| User Deletion | Delete a user |
+| Negative Testing | Non-existent user and invalid authentication |
+| Response Validation | Status codes, fields, and data types |
+| API Health | API availability check |
+| Failure Analysis | HTTP status-based failure classification |
+| Reporting | Allure test execution report |
+| BDD | Behave feature and step definitions |
+
+## 17. Conclusion
+
+This project demonstrates a reusable Python-based API automation
+framework for testing REST APIs.
+
+The framework combines Requests, Behave BDD, reusable utilities,
+response validation, logging, failure analysis, and Allure reporting
+to provide a structured API testing solution.
+
+The project source code, test cases, test data, framework components,
+and execution evidence are maintained in this GitHub repository.
+
+## 18. Author
+
+**Sampriti Dey**
+
+B.Tech – Computer Science and Engineering
+4th Year
+12023002001299
+
 
