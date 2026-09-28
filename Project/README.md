@@ -127,6 +127,7 @@ API_Automation_Capstone/
 ├── test_validator.py
 ├── requirements.txt
 └── README.md
+ ```
 
 ## 7. Authentication Testing
 
